@@ -38,9 +38,31 @@ class MasterViewController: UITableViewController {
     }
 
     func insertNewObject(_ sender: Any) {
+        
+        
+        let alert = UIAlertController(title: "Add new list", message: "name:", preferredStyle: .alert)
+        
+        alert.addTextField { (textField) in
+            textField.text = ""
+        }
+        
+        // 3. Grab the value from the text field, and print it when the user clicks OK.
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { [weak alert] (_) in
+            let textField = alert?.textFields![0] // Force unwrapping because we know it exists.
+            print("Text field: \(textField?.text)")
+            
+            // check of het niet leeg is (do/catch?)
+        }))
+        
+        // 4. Present the alert.
+        self.present(alert, animated: true, completion: nil)
+        
+        
+        
         objects.insert(NSDate(), at: 0)
         let indexPath = IndexPath(row: 0, section: 0)
         self.tableView.insertRows(at: [indexPath], with: .automatic)
+        
     }
 
     // MARK: - Segues
