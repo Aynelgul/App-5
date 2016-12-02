@@ -12,6 +12,8 @@
 		851E2FAE1DEDB12A003A5BB2 /* ToDoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E2FAD1DEDB129003A5BB2 /* ToDoManager.swift */; };
 		851E2FB01DEDD1A9003A5BB2 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E2FAF1DEDD1A9003A5BB2 /* ToDoList.swift */; };
 		851E2FB21DEDD1C0003A5BB2 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E2FB11DEDD1C0003A5BB2 /* ToDoItem.swift */; };
+		851E2FB41DF1B034003A5BB2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E2FB31DF1B034003A5BB2 /* CustomCell.swift */; };
+		851E2FB71DF1ECF0003A5BB2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 851E2FB61DF1ECF0003A5BB2 /* README.md */; };
 		85E42D391DED83C400D93CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E42D381DED83C400D93CB6 /* AppDelegate.swift */; };
 		85E42D3B1DED83C400D93CB6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E42D3A1DED83C400D93CB6 /* MasterViewController.swift */; };
 		85E42D3D1DED83C400D93CB6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E42D3C1DED83C400D93CB6 /* DetailViewController.swift */; };
@@ -94,6 +96,8 @@
 		851E2FAD1DEDB129003A5BB2 /* ToDoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoManager.swift; sourceTree = "<group>"; };
 		851E2FAF1DEDD1A9003A5BB2 /* ToDoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		851E2FB11DEDD1C0003A5BB2 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		851E2FB31DF1B034003A5BB2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		851E2FB61DF1ECF0003A5BB2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		85E42D351DED83C400D93CB6 /* aynelgul-pset5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aynelgul-pset5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E42D381DED83C400D93CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E42D3A1DED83C400D93CB6 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +154,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		851E2FB51DF1ECD4003A5BB2 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				851E2FB61DF1ECF0003A5BB2 /* README.md */,
+			);
+			name = doc;
+			sourceTree = "<group>";
+		};
 		85E42D2C1DED83C000D93CB6 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +185,7 @@
 		85E42D371DED83C400D93CB6 /* aynelgul-pset5 */ = {
 			isa = PBXGroup;
 			children = (
+				851E2FB51DF1ECD4003A5BB2 /* doc */,
 				851E2F911DEDA00B003A5BB2 /* SQLite.xcodeproj */,
 				85E42D381DED83C400D93CB6 /* AppDelegate.swift */,
 				85E42D3A1DED83C400D93CB6 /* MasterViewController.swift */,
@@ -181,6 +194,7 @@
 				851E2FAF1DEDD1A9003A5BB2 /* ToDoList.swift */,
 				851E2FB11DEDD1C0003A5BB2 /* ToDoItem.swift */,
 				851E2FAD1DEDB129003A5BB2 /* ToDoManager.swift */,
+				851E2FB31DF1B034003A5BB2 /* CustomCell.swift */,
 				85E42D3E1DED83C400D93CB6 /* Main.storyboard */,
 				85E42D411DED83C400D93CB6 /* Assets.xcassets */,
 				85E42D431DED83C400D93CB6 /* LaunchScreen.storyboard */,
@@ -408,6 +422,8 @@
 				85E42D3D1DED83C400D93CB6 /* DetailViewController.swift in Sources */,
 				85E42D3B1DED83C400D93CB6 /* MasterViewController.swift in Sources */,
 				85E42D391DED83C400D93CB6 /* AppDelegate.swift in Sources */,
+				851E2FB71DF1ECF0003A5BB2 /* README.md in Sources */,
+				851E2FB41DF1B034003A5BB2 /* CustomCell.swift in Sources */,
 				851E2FAE1DEDB12A003A5BB2 /* ToDoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

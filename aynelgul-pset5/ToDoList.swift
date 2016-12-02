@@ -11,12 +11,20 @@ import SQLite
 
 class TodoList {
     
-    let id: Int64
-    let name: String
-    var toDoItems = Array<ToDoItem>()
+    private let id: Int64
+    private let name: String
+    private var toDoItems = Array<TodoItem>()
     
-    init(id: Int64, name: String) {
-        self.id = id
+    init(name: String) {
+        self.id = -1
         self.name = name
+    }
+    
+    func getName () -> String {
+        return self.name
+    }
+    
+    func getTodoItems () -> Array<TodoItem>{
+        return self.toDoItems
     }
 }
